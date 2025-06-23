@@ -13,9 +13,9 @@ function TopCategories() {
         <div className='flex justify-between'>
         {
             categories.map((category)=>(
-                <div key={category.id} className='border border-[#008ECC]'>
-                    <img src={category.image} alt="" className='w-20'/>
-                    <p>{category.title}</p>
+                <div key={category.id} className='border border-[#008ECC] text-center object-fit'>
+                    <img src={category.image} alt="" className='w-24 h-32'/>
+                    <p className='mt-2 text-sm'>{category.title}</p>
 
                 </div>
             ))

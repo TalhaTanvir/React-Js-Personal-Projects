@@ -14,7 +14,7 @@ function Essential() {
             essentials.map((essential)=>(
               <div key={essential.id}>
                 <div className='border border-[#008ECC] rounded-xl px-8 py-14'>
-                <img src={essential.image} alt="" className='w-24'/>
+                <img src={essential.image} alt="" className='w-24 h-26'/>
                 </div>
                 <div  className='text-center mt-4'>
                 <p className='text-neutral-500'>{essential.title}</p>

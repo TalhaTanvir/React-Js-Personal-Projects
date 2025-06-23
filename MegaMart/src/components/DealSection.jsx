@@ -16,11 +16,11 @@ function DealSection() {
             {
                 deals.map((deal)=>(
                     <div key={deal.id} className='border border-[#008ECC] rounded-2xl'>
-                        <img src={deal.image} alt="" className='w-28 object-fit m-auto' />
-                        <div>
+                        <img src={deal.image} alt="" className='w-26 h-46 object-fit m-auto' />
+                        <div className='ml-3 my-4 text-sm'>
                             <h4>{deal.title}</h4>
-                            <p>₹{deal.price}</p>
-                            <p className='text-[#249B3E]'>Save- ₹{deal.save}</p>
+                            <p className='font-semibold mt-1'>₹{deal.price}</p>
+                            <p className='text-[#249B3E] mt-2'>Save- ₹{deal.save}</p>
                         </div>
 
                     </div>
