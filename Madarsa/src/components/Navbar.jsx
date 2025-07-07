@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav dir='rtl' className='flex bg-[#0F766E] h-20 text-white items-center justify-between px-8'>
+    <nav dir='rtl' className='flex bg-[#0F766E] h-20 text-white items-center justify-between px-8 fixed top-0 right-0 left-0'>
 
       <div>
         <img className='w-46' src="/images/logo.png" alt="" />
