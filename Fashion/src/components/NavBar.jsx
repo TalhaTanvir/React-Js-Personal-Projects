@@ -62,8 +62,8 @@ function NavBar() {
     {/* Mobile Menu DropDown */}
     {
       openNav && (
-    <div className=''>
-      <ul className='bg-red-400 fixed flex flex-col justify-center h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] right-0'>
+    <div className='lg:hidden '>
+      <ul className='fixed flex flex-col justify-center h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] right-0'>
         {NavLinks.map((link)=>(
           <li key={link.id}>
             <a href={link.url}>
